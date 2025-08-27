@@ -217,20 +217,18 @@ const keysElement = document.querySelector('.keys')
 
 Object.keys(keys).map(keyCode => {
   const keyElement = document.createElement("div")
+
   keyElement.style.backgroundColor = 'lightgrey'
   keyElement.style.height = '10px'
   keyElement.style.width = '20px'
   keyElement.style.marginRight = '5px'
 
   keyElement.setAttribute('data-key', keyCode)
-
   keysElement.appendChild(keyElement)
 })
 
 document.addEventListener("keydown", (e) => {
   e.preventDefault();
-  console.clear();
-  console.log(e);
 
   keys[e.code] = {
     ...keys[e.code],
