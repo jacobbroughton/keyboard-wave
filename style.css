@@ -8,3 +8,19 @@ div.keys {
   display: grid;
   grid-template-rows: repeat(3, auto);
 }
+
+div.keys > div.key {
+  background-color: #666;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height:20px;
+  border-radius:3px;
+  margin:5px;
+  font-size:0.7rem;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding:3px;
+  transition: border-width 0.1s linear;
+  white-space: nowrap;
+}

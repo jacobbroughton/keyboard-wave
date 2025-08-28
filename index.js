@@ -66,7 +66,7 @@ const keys = {
   },
   Backspace: {
     row: 1,
-    width: "50px",
+    width: "60px",
     key: "Backspace",
   },
   Tab: {
@@ -141,7 +141,7 @@ const keys = {
   },
   CapsLock: {
     row: 3,
-    width: "45px",
+    width: "55px",
     key: "CapsLock",
   },
   KeyA: {
@@ -268,25 +268,17 @@ const keys = {
 
 const keysElement = document.querySelector(".keys");
 
+const determineLabel = (initialLabel) => initialLabel === 'CapsLock' ? 'Caps Lock' : initialLabel
+
 Object.keys(keys).map((keyCode) => {
   const keyElement = document.createElement("div");
 
-  keyElement.style.backgroundColor = "grey";
-  keyElement.style.height = "20px";
-  keyElement.style.borderRadius = "3px";
   keyElement.style.width = keys[keyCode].width;
-  keyElement.style.margin = "5px";
   keyElement.style.gridRow = keys[keyCode].row;
-  keyElement.innerText = keys[keyCode].key
-  keyElement.style.fontSize = '0.7rem'
-  keyElement.style.display = "flex";
-  keyElement.style.justifyContent = "center";
-  keyElement.style.alignItems = "center";
-  keyElement.style.padding = "3px";
-  keyElement.style.transition = 'border-width 0.1s linear'
-  
+  keyElement.innerText = determineLabel(keys[keyCode].key)
 
   keyElement.setAttribute("data-key", keyCode);
+  keyElement.classList.add('key')
   keysElement.appendChild(keyElement);
 });
 
