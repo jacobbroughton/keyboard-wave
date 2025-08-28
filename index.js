@@ -2,249 +2,315 @@ const keys = {
   Backquote: {
     row: 1,
     width: "30px",
+    key: "`",
   },
   Digit1: {
     row: 1,
     width: "30px",
+    key: "1",
   },
   Digit2: {
     row: 1,
     width: "30px",
+    key: "2",
   },
   Digit3: {
     row: 1,
     width: "30px",
+    key: "3",
   },
   Digit4: {
     row: 1,
     width: "30px",
+    key: "4",
   },
   Digit5: {
     row: 1,
     width: "30px",
+    key: "5",
   },
   Digit6: {
     row: 1,
     width: "30px",
+    key: "6",
   },
   Digit7: {
     row: 1,
     width: "30px",
+    key: "7",
   },
   Digit8: {
     row: 1,
     width: "30px",
+    key: "8",
   },
   Digit9: {
     row: 1,
     width: "30px",
+    key: "9",
   },
   Digit0: {
     row: 1,
     width: "30px",
+    key: "0",
   },
   Minus: {
     row: 1,
     width: "30px",
+    key: "-",
   },
   Equal: {
     row: 1,
     width: "30px",
+    key: "=",
   },
   Backspace: {
     row: 1,
     width: "50px",
+    key: "Backspace",
   },
   Tab: {
-    row: 1,
+    row: 2,
     width: "40px",
+    key: "Tab",
   },
   KeyQ: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "q",
   },
   KeyW: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "w",
   },
   KeyE: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "e",
   },
   KeyR: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "r",
   },
   KeyT: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "t",
   },
   KeyY: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "y",
   },
   KeyU: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "u",
   },
   KeyI: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "i",
   },
   KeyO: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "o",
   },
   KeyP: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "p",
   },
   BracketLeft: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "[",
   },
   BracketRight: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "]",
   },
   Backslash: {
-    row: 1,
+    row: 2,
     width: "30px",
+    key: "\\",
   },
   CapsLock: {
-    row: 2,
+    row: 3,
     width: "45px",
+    key: "CapsLock",
   },
   KeyA: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "a",
   },
   KeyS: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "s",
   },
   KeyD: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "d",
   },
   KeyF: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "f",
   },
   KeyG: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "g",
   },
   KeyH: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "h",
   },
   KeyJ: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "j",
   },
   KeyK: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "k",
   },
   KeyL: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "l",
   },
   Semicolon: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: ";",
   },
   Quote: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "'",
   },
   Enter: {
-    row: 2,
+    row: 3,
     width: "30px",
+    key: "Enter",
   },
   ShiftLeft: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "Shift",
   },
   KeyZ: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "z",
   },
   KeyX: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "x",
   },
   KeyC: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "c",
   },
   KeyV: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "v",
   },
   KeyB: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "b",
   },
   KeyN: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "n",
   },
   KeyM: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "m",
   },
   Comma: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: ",",
   },
   Period: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: ".",
   },
   Slash: {
-    row: 3,
+    row: 4,
     width: "30px",
+    key: "/",
   },
   ShiftRight: {
-    row: 3,
+    row: 4,
     width: "50px",
+    key: "Shift",
   },
 };
 
-const keysElement = document.querySelector('.keys')
+const keysElement = document.querySelector(".keys");
 
-Object.keys(keys).map(keyCode => {
-  const keyElement = document.createElement("div")
+Object.keys(keys).map((keyCode) => {
+  const keyElement = document.createElement("div");
 
-  keyElement.style.backgroundColor = 'lightgrey'
-  keyElement.style.height = '10px'
-  keyElement.style.width = '20px'
-  keyElement.style.marginRight = '5px'
+  keyElement.style.backgroundColor = "grey";
+  keyElement.style.height = "20px";
+  keyElement.style.borderRadius = "3px";
+  keyElement.style.width = keys[keyCode].width;
+  keyElement.style.margin = "5px";
+  keyElement.style.gridRow = keys[keyCode].row;
+  keyElement.innerText = keys[keyCode].key
+  keyElement.style.fontSize = '0.7rem'
+  keyElement.style.display = "flex";
+  keyElement.style.justifyContent = "center";
+  keyElement.style.alignItems = "center";
+  keyElement.style.padding = "3px";
+  keyElement.style.transition = 'border-width 0.1s linear'
+  
 
-  keyElement.setAttribute('data-key', keyCode)
-  keysElement.appendChild(keyElement)
-})
+  keyElement.setAttribute("data-key", keyCode);
+  keysElement.appendChild(keyElement);
+});
 
 document.addEventListener("keydown", (e) => {
   e.preventDefault();
 
+  if (keys[e.code].timeout) clearTimeout(keys[e.code].timeout);
+  if (keys[e.code].interval) clearInterval(keys[e.code].interval);
+
   keys[e.code] = {
     ...keys[e.code],
-    level: keys[e.code].level + 1
+    level: keys[e.code].level ? keys[e.code].level + 1 : 1,
   };
 
-  const interval = setInterval(() => {
-    keys[e.code].level -= 1
-  })
+  keys[e.code].timeout = setTimeout(() => {
+    keys[e.code].interval = setInterval(() => {
+      if (keys[e.code].level <= 0) return;
+      keys[e.code].level -= 1;
+      element.style.border = `${keys[e.code].level * 2}px solid #ffffff90`;
+    }, 200);
+  }, 500);
 
-  const element = document.querySelector(`[data-key=${e.code}]`)
-  
-  // todo - maybe render again after this
-  element.style.height = keys[e.code].level * 10
+  const element = document.querySelector(`[data-key=${e.code}]`);
 
-  if (keys[e.code].level <= 0) {
-    clearInterval(interval)
-  }
+  element.style.border = `${keys[e.code].level * 2}px solid #ffffff90`;
+  element.style.width = keys[e.code].width;
 });
