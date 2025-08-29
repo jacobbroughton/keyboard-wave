@@ -16,7 +16,7 @@ div.keys > div.key {
   height:20px;
   border-radius:3px;
   margin:5px;
-  font-size:0.7rem;
+  /* font-size:1rem; */
   display: flex;
   justify-content:center;
   align-items:center;
