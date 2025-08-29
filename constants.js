@@ -1,4 +1,18 @@
 export const borderColor = '#ffffff90'
+export const borderColors = {
+  first: '#ffffff90',
+  second: 'green',
+  third: 'purple',
+  fourth: 'orange'
+}
+
+export const fontSizes = {
+  first: "0.7rem",
+  second: "0.8rem",
+  third: "0.9rem",
+  fourth: "1.2rem"
+}
+
 export const initialKeys = {
   Backquote: {
     row: 1,
