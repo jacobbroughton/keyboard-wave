@@ -13,7 +13,7 @@ const determineBorderColor = (level) => {
   } else if (level < 30) {
     return borderColors.third;
   } else {
-    return borderColors.third;
+    return borderColors.fourth;
   }
 };
 
@@ -25,7 +25,7 @@ const determineFontSize = (level) => {
   } else if (level < 30) {
     return fontSizes.third;
   } else {
-    return fontSizes.third;
+    return fontSizes.fourth;
   }
 }
 
